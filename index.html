@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Centre</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>Sports Centre</h1>
+        </div>
+        <div class="header-search">
+            <form>
+                <input type="text" placeholder="Search for more..." aria-label="Search">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div id="auth-links" style="display: inline-flex; gap: 10px;">
+            <a href="login.html" class="nav-link"
+                style="color: white; font-weight: bold; text-decoration: none;">Login</a>
+            <a href="signup.html" class="nav-link" style="color: white; font-weight: bold; text-decoration: none;">Sign
+                Up</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="https://www.cricbuzz.com/cricket-match/live-scores" class="nav-link">Live Score</a>
+            <a href="https://www.cricbuzz.com/cricket-schedule/upcoming-series/international"
+                class="nav-link">Schedule</a>
+            <a href="https://www.cricbuzz.com/cricket-news" class="nav-link">News</a>
+            <a href="https://www.cricbuzz.com/cricket-team" class="nav-link">Team</a>
+            <a href="https://www.cricbuzz.com/cricket-stats/icc-rankings/men/batting" class="nav-link">Ranking</a>
+            <a href="https://www.cricbuzz.com/info/contact" class="nav-link">More</a>
+        </div>
+    </nav>
+
+    <main class="dashboard-grid">
+
+
+        <aside class="sidebar">
+            <div class="card info-card">
+                <h3>Quick Links</h3>
+                <ol class="info-list">
+
+                    <li>Announcement</li>
+                    <li>Venue</li>
+                    <li>Profile</li>
+                </ol>
+            </div>
+
+            <div class="card search-card">
+                <h3>Player Details</h3>
+                <form class="player-search-form">
+                    <div class="form-group">
+                        <label for="player-name">Player Name</label>
+                        <a href=" www.google.com"></a>
+                        <input type="text" id="player-name" placeholder="E.g. Rohit Sharma">
+                    </div>
+
+
+
+                    <button type="submit" class="btn-primary">Search Stats</button>
+                </form>
+            </div>
+        </aside>
+
+
+        <section class="news-feed">
+            <h2 class="section-title">Latest Headlines</h2>
+
+
+            <article class="news-card">
+                <div class="news-image">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.84XPo2mcHqFBbTfsIfGueAHaEK?pid=Api&P=0&h=220"
+                        alt="Cricket News">
+                </div>
+                <div class="news-content">
+                    <span class="tag">Exclusive</span>
+                    <a
+                        href="https://www.icc-cricket.com/news/weatherald-throws-in-name-for-australia-opening-spot-for-ashes">
+                        <h3>The comeback of two giant of odi cricket in ICC ranking </h3>
+                    </a>
+                    <p>The new updates iCC ranking showing commitment of these player .....</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image">
+                    <img src="https://content.api.news/v3/images/bin/b5e48cba6f77601dee47c555d049b0e3"
+                        alt="Cricket News">
+                </div>
+                <div class="news-content">
+                    <span class="tag">Exclusive</span>
+                    <a
+                        href="https://www.icc-cricket.com/news/weatherald-throws-in-name-for-australia-opening-spot-for-ashes">
+                        <h3>After a year of experiments, Australia turn to Weatherald to open a new chapter</h3>
+                    </a>
+                    <p>Australia looks to solidify their opening partnership ahead of the Ashes series...</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image">
+                    <img src="https://th.bing.com/th/id/OIP.RP4uf-9DIWC0TcrlOMCHkQHaEJ?w=273&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                        alt="Haris Rauf">
+                </div>
+                <div class="news-content">
+                    <span class="tag">Breaking</span>
+                    <a
+                        href="https://www.cricbuzz.com/cricket-news/136209/haris-rauf-suspended-for-two-games-after-asia-cup-fiasco">
+                        <h3>Haris Rauf suspended for two games after Asia Cup fiasco</h3>
+                    </a>
+                    <p>The decision comes after a thorough review of the incident during the recent match...</p>
+                </div>
+            </article>
+        </section>
+
+
+        <section class="video-feed">
+            <h2 class="section-title">Featured Videos</h2>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/p2W0LMvnYGM?si=uff7bRdsioE-H4JY" title="YouTube video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <a href="https://youtu.be/p2W0LMvnYGM?si=XMOaOKvNSp5CoOIv" class="video-title">GILL UPSETS INDIA'S
+                    BALANCE</a>
+            </div>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/b-7OG7xkbVw?si=UZcA0_IM_G9NHqHM" title="YouTube video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <a href="https://youtu.be/b-7OG7xkbVw?si=HzwJUozBNx6B_Uie" class="video-title">FAREWELL MATCH OF TWO
+                    LEGENDS</a>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/w-fRL80HpxA?si=r0bc1Migwavsta12" title="YouTube video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <a href="https://youtu.be/S-LMSpzlnc0?si=ljWgejAHnl7nRzsa" class="video-title">RACE HIGHLIGHT | 2025 ABU
+                    DHABI GRAND PRIX </a>
+            </div>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/MAm0RLQpYas?si=IibztleifNzcygG-"
+                        title="YouTube video player" title="YouTube video" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <a href="https://youtu.be/S-LMSpzlnc0?si=ljWgejAHnl7nRzsa" class="video-title">IND VS PAK | ASIA CUP
+                    2025 HIGHLIGHT </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <!-- APPS -->
+            <div class="footer-column">
+                <h3>APPS</h3>
+                <ul>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">iOS</a></li>
+                </ul>
+            </div>
+
+            <!-- FOLLOW US -->
+            <div class="footer-column">
+                <h3>FOLLOW US ON</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div>
+
+            <!-- COMPANY -->
+            <div class="footer-column">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Cricbuzz TV Ads</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-copyright">
+            <p background-color: aria-colindex="blACK">&copy; 2024 Sports Centre. All rights reserved.</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
